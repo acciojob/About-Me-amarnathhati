@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        p {
+            margin: 0;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .skill {
+            width: 48%;
+            margin-bottom: 10px;
+        }
+        .skill-bar {
+            height: 25px;
+            background-color: #ddd;
+            border-radius: 3px;
+        }
+        .skill-level {
+            height: 100%;
+            width: 70%; /* Adjust this percentage to represent your skill level */
+            background-color: #007BFF;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Email: your@email.com</p>
+    </header>
+    <div class="container">
+        <section id="profile">
+            <h2>Profile</h2>
+            <p>Web Developer</p>
+        </section>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with expertise in HTML, CSS, and JavaScript. I love creating beautiful and functional websites that make a difference.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <!-- Add more skills as needed -->
+            </div>
+        </section>
+    </div>
+</body>
+</html>
 
